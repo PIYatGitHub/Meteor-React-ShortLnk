@@ -1,0 +1,27 @@
+@import "../variables";
+.header {
+  background: $header-bg;
+  color: $header-color;
+}
+.header__content{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: $site-max-width;
+  margin: 0 auto;
+  padding: $space;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.header__title {
+  margin: 0;
+}
+.header__content--button {
+  background: transparent;
+  border: none;
+  color: $header-color;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
