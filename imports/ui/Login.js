@@ -37,7 +37,7 @@ import {Meteor} from 'meteor/meteor';
                         <input type="password" ref="password" name = "password" placeholder = "Password" />
                         <button className="button"> Login</button>
                     </form>
-                    <Link to="/signup"> Do you need an account?</Link>
+                    <Link to="/signup"> Come join us - it super fun! </Link>
                 </div>
 
             </div>
